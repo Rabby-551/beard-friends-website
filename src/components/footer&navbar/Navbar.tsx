@@ -87,7 +87,7 @@ function Navbar() {
                   <nav className="flex flex-col flex-1 p-6 gap-2 text-base">
                     <MobileNavLink href="/about">About</MobileNavLink>
                     <MobileNavLink href="/beard-contest">Beard Contest</MobileNavLink>
-                    <MobileNavLink href="#shops">Barber Shops</MobileNavLink>
+                    <MobileNavLink href="/shops">Barber Shops</MobileNavLink>
                     <MobileNavLink href="#shop">Online Shop</MobileNavLink>
                     <MobileNavLink href="/contact">Contact</MobileNavLink>
                   </nav>

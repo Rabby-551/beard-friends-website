@@ -35,7 +35,7 @@ function AboutOurCommunity() {
             </p>
 
             <div>
-              <Link href="/our-community">
+              <Link href="/about" className="inline-flex items-center gap-2 text-white font-semibold text-lg hover:text-[#BA5EEF] transition-colors">
                 <button className="group flex items-center gap-2 text-white font-semibold text-lg hover:text-[#BA5EEF] transition-colors">
                   Learn more
                   <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />

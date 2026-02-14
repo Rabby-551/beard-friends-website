@@ -62,8 +62,8 @@ function Barbershops() {
   );
 
   return (
-    <div className="bg-[#1C1C1E] min-h-screen py-12 md:py-20 px-4">
-      <div className="container mx-auto max-w-7xl">
+    <div className="bg-[#1C1C1E] min-h-screen py-12 md:py-20 px-2">
+      <div className="container mx-auto ">
         <h1 className="text-3xl md:text-5xl font-bold text-white text-center mb-10 md:mb-16 tracking-tight">
           Barbar Shops
         </h1>

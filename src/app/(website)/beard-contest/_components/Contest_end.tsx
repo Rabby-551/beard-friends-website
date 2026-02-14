@@ -123,7 +123,7 @@ export default function ContestVotingApp() {
   const isEmpty = !data?.success || !currentGroup || participants.length === 0
 
   return (
-    <div className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-10">
+    <div className="min-h-screen bg-black text-white p-2 sm:p-6 md:p-10">
       <div className="container mx-auto border-t border-white/20 py-10 md:py-14">
         {/* Header */}
         <div className="mb-12 md:mb-16">
