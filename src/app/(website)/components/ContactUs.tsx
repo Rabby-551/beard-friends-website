@@ -475,6 +475,29 @@ function ContactUs() {
                   className="bg-[#1a1a1a] border-none text-white min-h-[120px]"
                   disabled={isSubmitting}
                 />
+              </div> 
+              <div className="flex items-start gap-3 pt-2">
+                <Checkbox
+                  id="terms"
+                  checked={formData.acceptTerms}
+                  onCheckedChange={handleCheckboxChange}
+                  disabled={isSubmitting}
+                  className="mt-1 border-gray-500 data-[state=checked]:bg-[#BA5EEF] data-[state=checked]:border-[#BA5EEF]"
+                />
+                <Label
+                  htmlFor="terms"
+                  className="text-gray-300 text-sm leading-relaxed cursor-pointer"
+                >
+                  I accept the{" "}
+                  <a
+                    href="/terms"
+                    className="text-[#BA5EEF] hover:underline font-medium"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Terms and Conditions
+                  </a>
+                </Label>
               </div>
 
               {/* Submit */}
@@ -509,29 +532,7 @@ function ContactUs() {
 
             <div className="border-t-2 border-dashed border-gray-600 my-8"></div>
 
-              <div className="flex items-start gap-3 pt-2">
-                <Checkbox
-                  id="terms"
-                  checked={formData.acceptTerms}
-                  onCheckedChange={handleCheckboxChange}
-                  disabled={isSubmitting}
-                  className="mt-1 border-gray-500 data-[state=checked]:bg-[#BA5EEF] data-[state=checked]:border-[#BA5EEF]"
-                />
-                <Label
-                  htmlFor="terms"
-                  className="text-gray-300 text-sm leading-relaxed cursor-pointer"
-                >
-                  I accept the{" "}
-                  <a
-                    href="/terms"
-                    className="text-[#BA5EEF] hover:underline font-medium"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Terms and Conditions
-                  </a>
-                </Label>
-              </div>
+              
           </div>
 
         </div>
